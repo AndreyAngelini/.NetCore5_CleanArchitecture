@@ -1,0 +1,1 @@
+# .NetCore5_CleanArchitecture

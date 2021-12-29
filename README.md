@@ -37,20 +37,25 @@ Projeto para gerenciamento de produtos e categorias criado em .NET Core 5, exemp
 
         CleanArch.Domain: Esse projeto será o núcleo da aplicação, onde não existe dependencias das camadas ou projetos externos, 
         nessa camada são aplicados o modelo de domínio, regras de negócio ( casos de uso ), Interfaces
+                    - Tipo do projeto: Class Library ( .NET Core 5 )
 
         CleanArch.Application: Esse projeto será responsável por aplicar: regras de dominios, mapeamentos, servicos, DTOs, CQRS
                     - Depende da camada de dominio, nomeada nesse projeto como CleanArch.Domain
+                    - Tipo do projeto: Class Library ( .NET Core 5 )
          
         CleanArch.Infra.Data: Esse projeto será responsável por aplicar: EF Core, EntityConfiguration, Migrations, Repository
                     - Depende da camada de dominio, nomeada nesse projeto como CleanArch.Domain
+                    - Tipo do projeto: Class Library ( .NET Core 5 )
         
         CleanArch.Infra.IoC: Esse projeto será responsável por aplicar: Dependency Injection, Registro de serviços, Tempo de vida
                     - Depende da camada de dominio, nomeada nesse projeto como CleanArch.Domain
                     - Depende da camada de adaptadores, nomeada nesse projeto como CleanArch.Application e CleanArch.Infra.Data
+                    - Tipo do projeto: Class Library ( .NET Core 5 )
 
         CleanArch.WebUI: Esse projeto será responsável por aplicar: Interface com o usuário através do padrão MVC: Models, Views, 
         Controllers, ViewModels.
                     - Depende da camada de Inversão de dependencia, nomeada nesse projeto como CleanArch.Infra.IoC
+                    - Tipo do projeto: ASP.NET Core MVC
 
 # Distribuição dos componentes em camadas
 

@@ -1,0 +1,15 @@
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\CleanArch.Application.deps.json
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\CleanArch.Application.dll
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\ref\CleanArch.Application.dll
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\CleanArch.Application.pdb
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\CleanArch.Domain.dll
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\bin\Debug\net5.0\CleanArch.Domain.pdb
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.csproj.AssemblyReference.cache
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.AssemblyInfoInputs.cache
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.AssemblyInfo.cs
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.csproj.CoreCompileInputs.cache
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.csproj.CopyComplete
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.dll
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\ref\CleanArch.Application.dll
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Application\obj\Debug\net5.0\CleanArch.Application.pdb

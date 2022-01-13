@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wkr+WNXcfAf12HF0VZIesDuMvRJ8dLEBy9N+SUr7XqrNNCHBoMJsoHD5q+zmj3mqSDG+U9Eq6c5B/tfFzao3hw==",
+  "dgSpecHash": "ZdHlEjxaMpDKl7Ab9HNm3OLqgjzFeI3yFwav4gyBASZdPpnejv8GoqhX50EU4ee47c2bZbYouo2HSFTqyy+cGA==",
   "success": true,
   "projectFilePath": "C:\\Andrey\\GitHub\\.NetCore5_CleanArchitecture\\src\\CleanArch\\CleanArch.Domain.Tests\\CleanArch.Domain.Tests.csproj",
   "expectedPackageFiles": [

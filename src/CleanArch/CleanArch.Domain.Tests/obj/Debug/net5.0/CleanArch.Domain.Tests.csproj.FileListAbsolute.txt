@@ -1,8 +1,3 @@
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.csproj.AssemblyReference.cache
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.AssemblyInfoInputs.cache
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.AssemblyInfo.cs
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\testhost.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\testhost.exe
@@ -100,6 +95,11 @@ C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Test
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\CleanArch.Domain.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\bin\Debug\net5.0\CleanArch.Domain.pdb
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.csproj.AssemblyReference.cache
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.AssemblyInfoInputs.cache
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.AssemblyInfo.cs
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.csproj.CopyComplete
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\CleanArch.Domain.Tests.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain.Tests\obj\Debug\net5.0\ref\CleanArch.Domain.Tests.dll

@@ -9,6 +9,6 @@ namespace CleanArch.Domain.Interface
 {
     public interface IProductRepository: IBaseRepository<Product>
     {
-        Task<Product> GetProductCategoryAsync(int? id);
+        
     }
 }

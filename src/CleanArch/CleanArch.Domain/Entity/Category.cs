@@ -32,7 +32,7 @@ namespace CleanArch.Domain.Entity
         }
         private void ValidateDomain(int id)
         {
-            DomainExceptionValidation.When((id <= 0), "The id must be greater than zero.");
+            DomainExceptionValidation.When((id < 0), "The id must be greater than zero.");
             this.Id = id;
         }
         public ICollection<Product> Products { get; set; }

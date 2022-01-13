@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1W2wAFWbjrdxm/bc0/6Mpbmcma96BVGegJkyhyRH4GH3fYV72SDphcphpVrWVF+mJI3Tt74tPE4b4AL2J/KinA==",
+  "dgSpecHash": "ZgyiKywoYdMmNY+XjoY9iYdm0L3TzYXyV+21SOjZGVHBAxmDqacStM6W0zdXDx8z5Xq5YwwpdYypoovQdbZWig==",
   "success": true,
   "projectFilePath": "C:\\Andrey\\GitHub\\.NetCore5_CleanArchitecture\\src\\CleanArch\\CleanArch.Application\\CleanArch.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrey\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

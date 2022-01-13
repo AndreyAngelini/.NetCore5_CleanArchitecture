@@ -42,7 +42,7 @@ namespace CleanArch.Domain.Entity
                            stock,
                            image);
         }
-        private void Update(string name,
+        public void Update(string name,
                             string description,
                             decimal price,
                             int stock,
@@ -64,7 +64,7 @@ namespace CleanArch.Domain.Entity
                                     int stock,
                                     string image)
         {
-            DomainExceptionValidation.When((id <= 0), "The id must be greater than zero.");
+            DomainExceptionValidation.When((id < 0), "The id must be greater than zero.");
             this.Id = id;
             ValidateDomain(name,
                            description,
@@ -85,7 +85,7 @@ namespace CleanArch.Domain.Entity
             DomainExceptionValidation.When((description.Length < 10), "Description is too short the minimum size is 10 characters.");
             DomainExceptionValidation.When((price < 0), "The price must be greater than zero.");
             DomainExceptionValidation.When((stock < 0), "The stock must be greater than zero.");
-            DomainExceptionValidation.When((image.Length < 25), "The image is too short the minimum size is 250 characters.");
+            DomainExceptionValidation.When((image.Length < 10), "The image is too short the minimum size is 10 characters.");
 
             this.Name = name;
             this.Description = description;

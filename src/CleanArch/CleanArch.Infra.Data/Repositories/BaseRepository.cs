@@ -35,21 +35,23 @@ namespace CleanArch.Infra.Data.Repositories
             return await _context.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(int? id)
+        public virtual async Task<T> GetByIdAsync(int? id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public async void RemoveAsync(T entity)
+        public async Task<T> RemoveAsync(T entity)
         {
             _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
-        public async void UpdateAsync(T entity)
+        public async Task<T> UpdateAsync(T entity)
         {
             _context.Set<T>().Update(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
         public void Dispose()

@@ -1,4 +1,6 @@
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\CleanArch.Infra.IoC.deps.json
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\CleanArch.Infra.IoC.runtimeconfig.json
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\CleanArch.Infra.IoC.runtimeconfig.dev.json
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\CleanArch.Infra.IoC.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\ref\CleanArch.Infra.IoC.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\bin\Debug\net5.0\CleanArch.Infra.IoC.pdb
@@ -17,3 +19,4 @@ C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\o
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\obj\Debug\net5.0\CleanArch.Infra.IoC.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\obj\Debug\net5.0\ref\CleanArch.Infra.IoC.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\obj\Debug\net5.0\CleanArch.Infra.IoC.pdb
+C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Infra.IoC\obj\Debug\net5.0\CleanArch.Infra.IoC.genruntimeconfig.cache

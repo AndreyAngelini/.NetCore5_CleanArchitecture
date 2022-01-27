@@ -1,10 +1,6 @@
 ﻿using CleanArch.Domain.Account;
 using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArch.Infra.Data.Identity
 {
@@ -13,7 +9,7 @@ namespace CleanArch.Infra.Data.Identity
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         public SeedUserRoleInitial(UserManager<ApplicationUser> userManager,
-                                   RoleManager<IdentityRole>    roleManager)
+                                   RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -21,12 +17,64 @@ namespace CleanArch.Infra.Data.Identity
 
         public void SeedRoles()
         {
-            throw new NotImplementedException();
+            if (_userManager.FindByEmailAsync("administrator@localhost").Result == null)
+            {
+                ApplicationUser user = new ApplicationUser();
+                user.UserName = "administrator@localhost";
+                user.Email = "administrator@localhost";
+                user.NormalizedUserName = "administrator@localhost";
+                user.NormalizedEmail = "administrator@localhost";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "Newadmin@2021").Result;
+                if(result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Administrator").Wait();
+                }
+            }
+
+            if (_userManager.FindByEmailAsync("user@localhost").Result == null)
+            {
+                ApplicationUser user = new ApplicationUser();
+                user.UserName = "user@localhost";
+                user.Email = "user@localhost";
+                user.NormalizedUserName = "user@localhost";
+                user.NormalizedEmail = "user@localhost";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "Newuser@2021").Result;
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "User").Wait();
+                }
+            }
         }
 
         public void SeedUsers()
         {
-            throw new NotImplementedException();
+            if (!_roleManager.RoleExistsAsync("User").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "User";
+                role.NormalizedName = "User";
+
+
+                IdentityResult result = _roleManager.CreateAsync(role).Result;
+            }
+
+            if (!_roleManager.RoleExistsAsync("Administrator").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "Administrator";
+                role.NormalizedName = "Administrator";
+
+
+                IdentityResult result = _roleManager.CreateAsync(role).Result;
+            }
         }
     }
 }

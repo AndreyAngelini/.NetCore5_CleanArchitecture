@@ -35,6 +35,11 @@ namespace CleanArch.Infra.Data.Identity
             {
                 UserName = email,
                 Email = email,
+                NormalizedUserName = email,
+                NormalizedEmail = email,
+                EmailConfirmed = true,
+                LockoutEnabled = false,
+                SecurityStamp = Guid.NewGuid().ToString()
             };
             var result = await _userManager.CreateAsync(applicationUser, password);
             if (result.Succeeded)

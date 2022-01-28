@@ -64,10 +64,11 @@ namespace CleanArch.WebUI.Controllers
             }            
         }
 
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _authentication.Logout();
-            return View();
+            return RedirectToAction("Login", "Account");
         }
     }
 }

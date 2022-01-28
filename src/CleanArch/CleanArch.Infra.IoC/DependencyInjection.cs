@@ -34,7 +34,7 @@ namespace CleanArch.Infra.IoC
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IAuthenticate, AuthenticateService>();
-            services.AddScoped<SeedUserRoleInitial, SeedUserRoleInitial>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
 
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));

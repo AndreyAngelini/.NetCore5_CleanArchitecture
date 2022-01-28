@@ -9,4 +9,3 @@ C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain\obj\
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain\obj\Debug\net5.0\CleanArch.Domain.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain\obj\Debug\net5.0\ref\CleanArch.Domain.dll
 C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain\obj\Debug\net5.0\CleanArch.Domain.pdb
-C:\Andrey\GitHub\.NetCore5_CleanArchitecture\src\CleanArch\CleanArch.Domain\obj\Debug\net5.0\CleanArch.Domain.csproj.AssemblyReference.cache

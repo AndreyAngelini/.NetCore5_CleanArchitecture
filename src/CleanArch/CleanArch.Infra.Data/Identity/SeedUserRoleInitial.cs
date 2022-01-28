@@ -15,7 +15,7 @@ namespace CleanArch.Infra.Data.Identity
             _roleManager = roleManager;
         }
 
-        public void SeedRoles()
+        public void SeedUsers()
         {
             if (_userManager.FindByEmailAsync("administrator@localhost").Result == null)
             {
@@ -54,7 +54,7 @@ namespace CleanArch.Infra.Data.Identity
             }
         }
 
-        public void SeedUsers()
+        public void SeedRoles()
         {
             if (!_roleManager.RoleExistsAsync("User").Result)
             {

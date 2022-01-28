@@ -1,5 +1,6 @@
 ﻿using CleanArch.Application.DTO;
 using CleanArch.Application.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -80,7 +81,7 @@ namespace CleanArch.WebUI.Controllers
             return View(product);
         }
 
-
+        [Authorize(Roles = "Administrator")]
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -91,6 +92,7 @@ namespace CleanArch.WebUI.Controllers
         }
 
 
+        [Authorize(Roles = "Administrator")]
         [HttpPost(), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int? id)
         {
